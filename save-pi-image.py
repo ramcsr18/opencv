@@ -13,7 +13,8 @@ time.sleep(0.1)
  
 # grab an image from the camera
 camera.capture(rawCapture, format="bgr")
-image = rawCapture.array
+img = rawCapture.array
  
 # write image to file
 cv2.imwrite('picam.png',img)
+
