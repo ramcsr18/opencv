@@ -23,7 +23,7 @@ echo "\nInstalling dependencies...\n"
 sudo apt-get install git build-essential cmake pkg-config wget
 
 # File I/O
-sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
 
 # Video I/O
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
@@ -33,6 +33,12 @@ sudo apt-get install libgtk-3-dev
 
 # Optimization (BLAS)
 sudo apt-get install libatlas-base-dev gfortran liblapacke-dev
+
+sudo apt-get install libilmbase-dev libopenexr-dev libgstreamer1.0-dev
+
+#QT
+sudo apt-get install -y libqtgui4
+
 
 # Python headers
 sudo apt-get install python2.7-dev python3.5-dev

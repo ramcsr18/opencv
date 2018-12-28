@@ -13,7 +13,7 @@ time.sleep(0.1)
  
 # grab an image from the camera
 camera.capture(rawCapture, format="bgr")
-image = rawCapture.array
+img = rawCapture.array
  
 # display the image on screen and wait for a keypress
 cv2.imwrite('picam.png',img)
