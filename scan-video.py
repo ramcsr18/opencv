@@ -62,6 +62,7 @@ while cap.isOpened():
 	cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:5]
 	 
 	# loop over the contours
+	screenCnt=null
 	for c in cnts:
 		# approximate the contour
 		peri = cv2.arcLength(c, True)
